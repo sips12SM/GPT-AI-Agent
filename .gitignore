@@ -1,0 +1,21 @@
+# Diagnostic output can include infrastructure and access metadata.
+DbaAudit-*.json
+audit-output/
+
+# Local credentials and private key/certificate bundles.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Local backups, temporary files, and logs.
+*.bak
+*.tmp
+*.temp
+*.log
+*.user
+.DS_Store
+Thumbs.db
